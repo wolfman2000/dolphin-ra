@@ -83,18 +83,10 @@
   <ItemGroup>
     <ClInclude Include="Core\AchievementManager.h" />
     <ClInclude Include="Core\Config\AchievementSettings.h" />
-    <ClInclude Include="DolphinQt\Config\AchievementLeaderboardWidget.h" />
-    <ClInclude Include="DolphinQt\Config\AchievementProgressWidget.h" />
-    <ClInclude Include="DolphinQt\Config\AchievementSettingsWidget.h" />
-    <ClInclude Include="DolphinQt\Config\AchievementsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core\AchievementManager.cpp" />
     <ClCompile Include="Core\Config\AchievementSettings.cpp" />
-    <ClCompile Include="DolphinQt\Config\AchievementLeaderboardWidget.cpp" />
-    <ClCompile Include="DolphinQt\Config\AchievementProgressWidget.cpp" />
-    <ClCompile Include="DolphinQt\Config\AchievementSettingsWidget.cpp" />
-    <ClCompile Include="DolphinQt\Config\AchievementsWindow.cpp" />
   </ItemGroup>
   <UsingTask TaskName="GetProductVersion" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
     <ParameterGroup>
