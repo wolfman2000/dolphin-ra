@@ -12,6 +12,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QSlider>
+#include <QStandardItemModel>
 #include <QVBoxLayout>
 #include <QWidget>
 
